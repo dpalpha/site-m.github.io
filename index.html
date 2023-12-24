@@ -1,53 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="web.css">
+  <title>My Simple Website</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<html lang='en'>
-	<head>
-		<title> Alarm Clock</title>
-		<meta charset='UFT-8' name='viewport' content='width=device-width, initial=scale=1.0' >
-		<link rel='stylesheet' type='text/css' href='script.css'>
-	</head>
-	<body>
-		<div id='main-container'>
-			<h2 id='clock'></h2>
-		</div>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I'm a web developer passionate about creating amazing websites.</p>
+    </section>
 
-		<div id='alarm-container'>
-			<h3>Set Alarm Time</h3>
-				<label>
-					<div>
-					<select id='alarmhrs' ></select>
-					</div>
-				</label>
-				<label>
-					<div>
-					<select id='alarmmins' ></select>
-					</div>
-				</label>
-				<label>
-					<div>
-					<select id='alarmsecs' ></select>
-					</div>
-				</label>
-				<label>
-					<div>
-						<select id="ampm">
-							<option value="AM">AM</option>
-							<option value="PM">PM</option>
-						</select>
-					</div>
-				</label>
-				</div>
-		</div>
+    <section>
+      <h2>Contact</h2>
+      <p>You can reach me at example@example.com</p>
+    </section>
+  </main>
 
-		<div id='buttonHolder'>
-			<div>
-				<button  id='setButton' onClick='alarmSet()'>Set Alarm</button>
-			</div>
-
-			<div>
-				<button  id='clearButton' onClick='alarmClear()'>Clear Alarm</button>
-			</div>
-		</div>
-
-		<script type='text/javascript' src='script.js'></script>
-	</body>
+  <footer>
+    <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+  </footer>
+</body>
 </html>
